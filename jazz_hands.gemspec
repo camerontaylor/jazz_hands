@@ -18,15 +18,16 @@ Gem::Specification.new do |gem|
   gem.require_paths = ['lib']
 
   # Dependencies
-  gem.required_ruby_version = '>= 1.9.2'
-  gem.add_runtime_dependency 'pry', '~> 0.10.1'
-  gem.add_runtime_dependency 'pry-rails', '~> 0.3.2'
-  gem.add_runtime_dependency 'pry-doc', '~> 0.4.6'
-  gem.add_runtime_dependency 'pry-git', '~> 0.2.3'
-  gem.add_runtime_dependency 'pry-stack_explorer', '~> 0.4.9'
-  gem.add_runtime_dependency 'pry-remote', '>= 0.1.7'
-  gem.add_runtime_dependency 'hirb', '~> 0.7.1'
-  gem.add_runtime_dependency 'pry-coolline', '>= 0.2.4'
-  gem.add_runtime_dependency 'awesome_print', '~> 1.2'
-  gem.add_runtime_dependency 'railties', '>= 3.0', '< 5.0'
+  #gem.required_ruby_version = '>= 2.1.0'
+  gem.add_runtime_dependency 'pry'
+  gem.add_runtime_dependency 'pry-rails'
+  gem.add_runtime_dependency 'pry-doc'
+  gem.add_runtime_dependency 'pry-git'
+  # gem.add_runtime_dependency 'pry-stack_explorer', '~> 0.4.9'
+  gem.add_runtime_dependency 'pry-remote'
+  gem.add_runtime_dependency 'pry-byebug'
+  gem.add_runtime_dependency 'hirb'
+  gem.add_runtime_dependency 'pry-coolline'
+  gem.add_runtime_dependency 'awesome_print'
+  gem.add_runtime_dependency 'railties'
 end

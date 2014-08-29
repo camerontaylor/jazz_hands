@@ -3,10 +3,10 @@ require 'pry-rails'
 require 'pry-doc'
 require 'pry-git'
 require 'pry-remote'
-require 'pry-stack_explorer'
+# require 'pry-stack_explorer'
 require 'awesome_print'
-require 'jazz_hands/hirb_ext'
-
+#require 'jazz_hands/hirb_ext'
+require 'pry-byebug'
 
 module JazzHands
   class Railtie < Rails::Railtie

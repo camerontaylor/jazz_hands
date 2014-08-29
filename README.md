@@ -17,7 +17,7 @@ hard-working hands!
   commits on methods and classes, not just files.
 * [**Pry Remote**][pry-remote] to connect remotely to a Pry console.
 * [**Pry Stack Explorer**][pry-stack_explorer] to navigate the call stack and
-  frames.
+  frames. _(*NOTE:* Temporarily removed due to issues with raild 4.1.x and ruby 2.1.2)_
 * [**Coolline**][coolline] and [**Coderay**][coderay] for syntax highlighting as
   you type. _Optional. MRI 1.9.3/2.0.0 only_
 
